@@ -4,11 +4,17 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { RegistrationComponent } from './pages/registration/registration.component';
 import {RouterModule} from '@angular/router';
+import { LoginComponent } from './pages/login/login.component';
+import {RouterState} from './services/routes/RouterState';
 
 const Routes = [
   {
-    path: 'registration',
+    path: RouterState.registration,
     component: RegistrationComponent,
+  },
+  {
+    path: RouterState.login,
+    component: LoginComponent,
   },
 
 ];
@@ -16,7 +22,8 @@ const Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    LoginComponent
   ],
     imports: [
         BrowserModule,

@@ -16,4 +16,8 @@ export class AppComponent {
     await this._router.navigateByUrl(RouterState.registration);
   }
 
+  public async onOpenLogin(): Promise<void> {
+    await this._router.navigateByUrl(RouterState.login);
+  }
+
 }
