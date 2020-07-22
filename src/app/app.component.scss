@@ -1,0 +1,30 @@
+.navbar-black {
+  background: #000 !important;
+  color: white !important;
+}
+
+.font-white {
+  color: white !important;
+}
+
+.font-white :hover,
+.font-white :focus {
+  background: #232323 !important;
+  color: white !important;
+}
+
+.font-secondary > a {
+  color: #FF8A00 !important;
+}
+
+a {
+  cursor: pointer;
+}
+
+.nav-item > a {
+  color: white;
+}
+
+.active {
+  text-decoration: underline;
+}
