@@ -1,3 +1,84 @@
 body {
+  background: #000
+}
+
+.form {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.lab_text{
+  color: white;
+  text-transform: uppercase;
+  margin-top: 20px
+}
+.inp_text{
+  margin-top: 20px;
+  color: white;
+  border: 1px solid white;
+  width: 50%;
   background: #000;
+  float: right;
+}
+.btn{
+  color: white;
+  border: 1px solid #FF8A00;
+  width: 30%;
+  background: #000;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  margin-left: 30%;
+}
+.select{
+  color: white;
+  border: 1px solid white;
+  width: 50%;
+  height: 30px;
+  background: #000;
+  float: right;
+  margin-top: 20px;
+}
+
+textarea{
+  color: white;
+  background: #000;
+  width: 50%;
+  float: right;
+  border: 1px solid white;
+}
+
+.form-check {
+  margin-top: 20px;
+  color: white;
+  float: right;
+}
+.form-check input[type=radio] {
+  display: none;
+}
+.form-check label {
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+}
+.form-check label:before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius:50%;
+  border: 1px solid #FF8A00;
+  margin-right: 9px;
+}
+.form-check input[type=radio]:checked + label:before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius:50%;
+  background: #FF8A00;
+}
+.write{
+  color: white;
+  text-transform: uppercase;
+  margin-top: 20px;
 }

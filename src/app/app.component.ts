@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {Router} from '@angular/router';
 import {RouterState} from './services/routes/RouterState';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -18,6 +19,9 @@ export class AppComponent {
 
   public async onOpenLogin(): Promise<void> {
     await this._router.navigateByUrl(RouterState.login);
+  }
+  public async onOpenAbout(): Promise<void> {
+    await this._router.navigateByUrl(RouterState.about);
   }
 
 }

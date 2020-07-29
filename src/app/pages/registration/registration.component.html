@@ -1,29 +1,113 @@
 <div class="container-fluid bg-black">
-  <form style="width: 50%; margin: 0 auto">
-    <div style="text-align: center; align-content: center; align-items: center">
+  <form class="form">
+    <div class="form_reg">
+
+      <div class="form_reg">
+        <label class="lab_text">Ваша роль</label>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" checked name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1" >Виконавець</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Замовник</label>
+      </div>
+      </div>
       <div>
-        <label style="color: white; text-transform: uppercase">ПІБ</label>
-        <input type="text" style="border: 1px solid white; margin-left: 40px; width: 50%;
-         background: #000; margin-top: 50px">
+        <label class="lab_text">Назва компанії</label>
+        <input type="text" class="inp_text">
       </div>
 
       <div>
-        <label style="color: white; text-transform: uppercase">ПІБ</label>
-        <input type="text" style="border: 1px solid white; margin-left: 40px; width: 50%;
-         background: #000; margin-top: 50px">
+        <label class="lab_text">ПІБ</label>
+        <input type="text" class="inp_text">
       </div>
 
       <div>
-        <label style="color: white; text-transform: uppercase">ПІБ</label>
-        <input type="text" style="border: 1px solid white; margin-left: 40px; width: 50%;
-         background: #000; margin-top: 50px">
+        <label class="lab_text">E-mail</label>
+        <input type="email" class="inp_text">
       </div>
 
       <div>
-        <label style="color: white; text-transform: uppercase">ПІБ</label>
-        <input type="text" style="border: 1px solid white; margin-left: 40px; width: 50%;
-         background: #000; margin-top: 50px">
+        <label class="lab_text">Номер телефону</label>
+        <input type="tel" class="inp_text">
       </div>
+
+      <div>
+        <label class="lab_text">Область</label>
+        <select class="select">
+          <option selected>Виберіть область</option>
+          <option value="1">Вінницька</option>
+          <option value="2">Волинська</option>
+          <option value="3">Дніпропетровська</option>
+          <option value="4">Донецька</option>
+          <option value="5">Житомирська</option>
+          <option value="6">Закарпатська</option>
+          <option value="7">Запорізька</option>
+          <option value="8">Івано-Франківська</option>
+          <option value="9">Київська</option>
+          <option value="10">Кіровоградська</option>
+          <option value="11">Луганська</option>
+          <option value="12">Львівська</option>
+          <option value="13">Миколаївська</option>
+          <option value="14">Одеська</option>
+          <option value="15">Полтавська</option>
+          <option value="16">Рівненська</option>
+          <option value="17">Сумська</option>
+          <option value="18">Тернопільська</option>
+          <option value="19">Харківська</option>
+          <option value="20">Херсонська</option>
+          <option value="21">Хмельницька</option>
+          <option value="22">Черкаська</option>
+          <option value="23">Чернівецька</option>
+          <option value="24">Чернігівська</option>
+          <option value="25">Автономна Республіка Крим</option>
+        </select>
+      </div>
+
+      <div>
+        <label class="lab_text">Адреса</label>
+        <input type="text" class="inp_text">
+      </div>
+
+      <div>
+        <label class="lab_text">Категорія</label>
+        <select class="select" >
+          <option selected>Виберіть категорію</option>
+          <option value="1">Різання металу</option>
+          <option value="2">Гнуття металу</option>
+          <option value="3">Зварювальні роботи</option>
+          <option value="4">Термообробка</option>
+          <option value="5">Струменева обробка</option>
+          <option value="6">Покрасочні роботи</option>
+          <option value="7">Гальваніка</option>
+          <option value="8">Гравірування на металі</option>
+          <option value="9">Фінішна обробка</option>
+          <option value="10">Лиття металів</option>
+          <option value="11">Газотермічне напилення</option>
+          <option value="12">Механічни обробка</option>
+          <option value="13">Обробка металу тиском</option>
+          <option value="14">Виготовлення деталей</option>
+          <option value="15">Послуги конструкторів</option>
+        </select>
+      </div>
+
+      <div>
+        <label class="lab_text">Сайт</label>
+        <input type="url" class="inp_text">
+      </div>
+
+      <div class="write">
+        <div>
+          <label>Опис</label>
+          <textarea rows="3"></textarea>
+        </div>
+
+      </div>
+
     </div>
+    <button class="btn">Реєстрація</button>
   </form>
 </div>

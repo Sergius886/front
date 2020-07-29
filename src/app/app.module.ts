@@ -6,6 +6,8 @@ import { RegistrationComponent } from './pages/registration/registration.compone
 import {RouterModule} from '@angular/router';
 import { LoginComponent } from './pages/login/login.component';
 import {RouterState} from './services/routes/RouterState';
+import { AboutComponent } from './pages/about/about.component';
+
 
 const Routes = [
   {
@@ -16,6 +18,10 @@ const Routes = [
     path: RouterState.login,
     component: LoginComponent,
   },
+  {
+    path: RouterState.about,
+    component: AboutComponent,
+  },
 
 ];
 
@@ -23,7 +29,8 @@ const Routes = [
   declarations: [
     AppComponent,
     RegistrationComponent,
-    LoginComponent
+    LoginComponent,
+    AboutComponent,
   ],
     imports: [
         BrowserModule,
